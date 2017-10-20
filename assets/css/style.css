@@ -1,4 +1,100 @@
 body {
-	background: #424a60;
+	margin: 0;
+	background: #556080;
 	font-family: 'Playfair Display', serif;
+}
+
+.header-icon {
+	font-size: 48px !important;
+	padding: 10px;
+}
+
+.burger { display: none; }
+.burger {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 10px;
+	min-width: fit-content;
+	padding: 0 15px 5px;
+	background-color: #424a60;
+	color: #ebba16;
+	border-radius: 5px;
+}
+
+.burger input {
+	width: 48px;
+	height: 48px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 1; /* hide this */
+	z-index: 2; /* and place it over the hamburger */
+	cursor: pointer;
+}
+
+
+.logo img { display: block; margin: auto; }
+
+.cart {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 10px;
+	min-width: fit-content;
+	text-align: center;
+	background-color: #424a60;
+	border-radius: 5px;
+}
+.cart p { margin: 0; padding: 0 10px 10px 10px;}
+.cart a { text-decoration: none; color: #ebba16; }
+
+.menu {
+	display: block;
+	width: fit-content;
+	margin: auto;
+}
+
+.menu ul {
+	padding-left: 0;
+}
+
+.menu ul li {
+	display: inline-block;
+}
+
+.menu ul li a {
+	padding: 10px;
+	text-decoration: none;
+	background: #424a60;
+	color: #ebba16;
+	display: block;
+	border-radius: 3px;
+}
+
+.menu ul li i {
+	margin-right: 5px;
+}
+
+@media screen and (max-width: 480px) {
+	/* Mobile */
+	.burger {
+		display: inline-block;
+		width: 20%;
+	}
+
+	.logo img { width: 123px; }
+
+	.cart {}
+	.menu {}
+	.burger-open {}
+}
+
+@media screen and (min-width: 480px) and (max-width: 960px) {
+	/* Tablet */
+	.logo img { width: 180px; }
+}
+
+@media screen and (min-width: 1280px) {
+	/* Desktop */
 }
