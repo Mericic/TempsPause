@@ -119,6 +119,7 @@ body {
 	display: table;
 	margin: auto;
 	transition: opacity .3s linear;
+
 }
 .menu ul { padding-left: 0; }
 .menu ul li { display: inline-block; }
@@ -179,6 +180,8 @@ body {
 		width: 100%;
 		background-color: #424a60;
 		z-index: -1;
+		font-size: 100%;
+
 	}
 	.menu ul { margin-top: 25px; }
 	.menu ul li { display: block; }
@@ -213,4 +216,8 @@ body {
 @media screen and (min-width: 480px) and (max-width: 960px) {
 	/* Tablet */
 	.logo { width: 135px; }
+
+	.menu {
+    font-size: 93%;
+	}
 }
