@@ -1,5 +1,6 @@
 body {
-	background: white;
+	margin: 0;
+	background-color: #556080;
 	font-family: 'Playfair Display', serif;
 }
 
@@ -23,6 +24,7 @@ body {
 	margin-right: 5%;*/
 	overflow: hidden;
 	background-color: #424a60;
+	margin-top: 30px;
 }
 
 #s1 .imgSlider{
@@ -77,10 +79,7 @@ body {
 		height: 10em;
 	}
 }
-	margin: 0;
-	background-color: #556080;
-	font-family: 'Playfair Display', serif;
-}
+
 
 .header-icon {
 	font-size: 48px !important;
