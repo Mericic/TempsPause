@@ -69,17 +69,15 @@ img.img_mobile {
 
 .maps {
 	width: 90%;
-	margin-left: 5%;
-	margin-right: 5%;
 	display: inline-flex;
 
 }
 
 .maps p{
 	text-align: justify;
-	margin-right: 2%;
-	margin-left: 2%;
 	margin-bottom: 0;
+	margin-left: 5%;
+	margin-right: 5%;
 	margin-top: 0;
 }
 
@@ -169,6 +167,7 @@ img.img_mobile {
 	}
 
 	.maps img {
+		margin-top: 1%;
 		width:90%;
 		height: 25em;
 		margin-left: 5%;
@@ -219,6 +218,7 @@ margin-right: 1%;
 }
 
 .maps img {
+margin-top: 1%;
 width:90%;
 height: 25em;
 margin-left: 5%;
