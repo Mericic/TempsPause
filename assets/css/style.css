@@ -1,6 +1,8 @@
 body {
-	background: #424a60;
+	margin: 0;
+	background: #556080;
 	font-family: 'Playfair Display', serif;
+<<<<<<< HEAD
 	color: #ebba16;
 }
 
@@ -85,3 +87,101 @@ body {
 #description p{
 
 }
+=======
+}
+
+.header-icon {
+	font-size: 48px !important;
+	padding: 10px;
+}
+
+.burger {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 10px;
+	display: table;
+	padding: 0 15px 5px;
+	background-color: #424a60;
+	color: #ebba16;
+	border-radius: 5px;
+}
+
+.burger input {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 73px;
+	height: 73px;
+	margin: 0;
+	opacity: 0; /* hide this */
+	z-index: 2; /* and place it over the hamburger */
+	cursor: pointer;
+}
+
+.burger input:checked {}
+
+.logo { display: table; margin: auto; }
+
+.cart {
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: table;
+	margin: 10px;
+	text-align: center;
+	background-color: #424a60;
+	border-radius: 5px;
+}
+.cart p { margin: 0; padding: 0 10px 10px 10px;}
+.cart a { text-decoration: none; color: #ebba16; }
+
+.menu {
+	display: table;
+	margin: auto;
+}
+
+.menu ul {
+	padding-left: 0;
+}
+
+.menu ul li {
+	display: inline-block;
+}
+
+.menu ul li a {
+	padding: 10px;
+	text-decoration: none;
+	background: #424a60;
+	color: #ebba16;
+	display: block;
+	border-radius: 3px;
+}
+
+.menu ul li i {
+	margin-right: 5px;
+}
+
+@media screen and (max-width: 480px) {
+	/* Mobile */
+	.burger {
+		display: inline-block;
+		width: 20%;
+	}
+
+	.logo img { width: 123px; }
+
+	.cart {}
+	.menu {}
+	.burger-open {}
+}
+
+@media screen and (min-width: 480px) and (max-width: 960px) {
+	/* Tablet */
+	.logo img { width: 180px; }
+}
+
+@media screen and (min-width: 1280px) {
+	/* Desktop */
+}
+>>>>>>> 11301cf5c157587eaa2566fe16e0eb01eab13be5
