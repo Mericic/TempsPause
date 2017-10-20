@@ -9,13 +9,12 @@ body {
 	padding: 10px;
 }
 
-.burger { display: none; }
 .burger {
 	position: absolute;
 	top: 0;
 	left: 0;
 	margin: 10px;
-	min-width: fit-content;
+	display: table;
 	padding: 0 15px 5px;
 	background-color: #424a60;
 	color: #ebba16;
@@ -23,25 +22,27 @@ body {
 }
 
 .burger input {
-	width: 48px;
-	height: 48px;
 	position: absolute;
 	top: 0;
 	left: 0;
-	opacity: 1; /* hide this */
+	width: 73px;
+	height: 73px;
+	margin: 0;
+	opacity: 0; /* hide this */
 	z-index: 2; /* and place it over the hamburger */
 	cursor: pointer;
 }
 
+.burger input:checked {}
 
-.logo img { display: block; margin: auto; }
+.logo { display: table; margin: auto; }
 
 .cart {
 	position: absolute;
 	top: 0;
 	right: 0;
+	display: table;
 	margin: 10px;
-	min-width: fit-content;
 	text-align: center;
 	background-color: #424a60;
 	border-radius: 5px;
@@ -50,8 +51,7 @@ body {
 .cart a { text-decoration: none; color: #ebba16; }
 
 .menu {
-	display: block;
-	width: fit-content;
+	display: table;
 	margin: auto;
 }
 
