@@ -1,4 +1,111 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 body {
-	background: #424a60;
-	font-family: 'Playfair Display', serif;
+	/*background: #424a60;*/
+	font-family: 'Playfair Display', serif
+}
+
+/*section reparation */
+.reparation {
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+
+}
+.reparation h1{
+	text-align: center;
+
+}
+
+.reparation p{
+	text-align: justify;
+	margin-right: 2%;
+	margin-left: 2%;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.reparation img {
+width: 30%;
+height: 100%;
+}
+
+.reparation .premiere_description {
+	display: inline-flex;
+}
+
+.reparation .premiere_description img{
+	margin-right: 2%;
+
+}
+
+.reparation .seconde_description {
+	display: inline-flex;
+	margin-top: 2%;
+}
+.reparation .seconde_description img{
+	margin-left: 2%;
+}
+
+img#img_mobile {
+	display: none;
+}
+
+
+
+/*fin de section reparation */
+
+
+
+
+															/* 1: mobile */
+ @media  screen and (min-width: 480px) and (max-width:960px){
+
+	.reparation p{
+		margin-right: 0;
+		margin-left: 0;
+
+	}
+
+	img#img_desktop{
+		display: none;
+	}
+
+	img#img_mobile {
+		display: block;
+	}
+	/*section reparation */
+
+	 .reparation img  {
+		width: 70%;
+		padding: 1%;
+	}
+
+	.reparation .premiere_description {
+		display: block;
+		margin-right: 0;
+	}
+
+	.reparation .premiere_description img{
+		margin-right: 15%;
+		margin-left: 15%;
+
+	}
+
+
+	.reparation .seconde_description {
+		display: block;
+		margin-top: 1%;
+	}
+	.reparation .seconde_description img{
+		 margin-right: 15%;
+		 margin-left: 15%;
+	}
+
+
+
+	/*fin de section reparation */
+
 }
