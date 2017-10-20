@@ -5,59 +5,50 @@
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 		<link rel="icon" href="assets/images/tempsdunepause.ico" />
 		<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
-		<!-- Import libraries -->
-		<script src="https://use.fontawesome.com/7cabcd9ae0.js"></script>
-		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
 	</head>
 	<body>
 		<header>
-			<div class="burger header-icon" onclick="openBurger();">
-				<input type="checkbox" />
+			<input class="burger-opener" type="checkbox" />
+			<div class="burger header-icon">
 				<i class="fa fa-bars"></i>
 			</div>
 			<div>
-				<img class="logo" src="assets/images/tempsdunepause.png" alt="logo de temps d'une pause" />
+				<a href="#" class="logo-link">
+					<img class="logo" src="assets/images/tempsdunepause.png" alt="logo de temps d'une pause" />
+				</a>
 			</div>
 			<div class="cart">
 				<a href="#">
 					<i class="fa fa-shopping-cart header-icon"></i>
-					<p> 0 Article </p>
+					<p>10<span class="mobile-hidden"> Articles</span></p>
 				</a>
 			</div>
+
+			<nav class="menu">
+				<ul>
+					<li>
+						<a href="#">
+							<i class="fa fa-cart-plus"></i> Acheter
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="fa fa-money"></i> Vendre
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="fa fa-wrench"></i> Réparations
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="fa fa-info-circle"></i> Découvrez-nous
+						</a>
+					</li>
+				</ul>
+			</nav>
 		</header>
-		<nav class="menu">
-			<ul>
-				<li>
-					<a href="#">
-						<i class="fa fa-cart-plus"></i> Acheter
-					</a>
-				</li>
-				<li>
-					<a href="#">
-						<i class="fa fa-money"></i> Vendre
-					</a>
-				</li>
-				<li>
-					<a href="#">
-						<i class="fa fa-wrench"></i> Réparations
-					</a>
-				</li>
-				<li>
-					<a href="#">
-						<i class="fa fa-info-circle"></i> Découvrez-nous
-					</a>
-				</li>
-			</ul>
-		</nav>
-
-
-		<script type="text/javascript">
-			var burgerOpen = false;
-
-			function openBurger() {
-				//if(!burgerOpen) $('menu').addClass('burger-open');
-				//else $('menu').removeClass('burger-open');
-			}
-		</script>
 	</body>
 </html>
