@@ -1,3 +1,7 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 body {
 	margin: 0;
 	background-color: #556080;
@@ -212,4 +216,237 @@ body {
 
 @media screen and (min-width: 1280px) {
 	/* Desktop */
+
+
+
+hr {
+
+	text-align: center;
+	font-size: 4em;
+	line-height: 1;
+	width: 90%;
+}
+
+/*section reparation */
+.reparation {
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+
+}
+.reparation h1{
+	text-align: center;
+
+}
+
+.reparation p{
+	text-align: justify;
+	margin-right: 2%;
+	margin-left: 2%;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+ img#img_location {
+	width: 10%;
+	height: 5%;
+	margin-right: 1%;
+
+}
+
+.reparation img {
+max-width: 25em;
+max-height: 15em;
+}
+
+.reparation .premiere_description {
+	display: inline-flex;
+}
+
+.reparation .premiere_description img{
+	margin-right: 2%;
+
+}
+
+.reparation .seconde_description {
+	display: inline-flex;
+	margin-top: 2%;
+}
+.reparation .seconde_description img{
+	margin-left: 2%;
+}
+
+img.img_mobile {
+	display: none;
+}
+
+/*fin de section reparation */
+
+/*section maps */
+
+.maps {
+	width: 90%;
+	display: inline-flex;
+	margin-left: 5%;
+	margin-right: 5%;
+
+}
+
+.maps p{
+	text-align: justify;
+	margin-bottom: 0;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 0;
+}
+
+.maps h1 {
+	margin-left: 4%;
+}
+
+.maps div{
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+.maps img {
+	max-width:60%;
+	height: 20%;
+	margin-top: auto;
+	margin-bottom: auto;
+
+}
+
+/*fin de section map */
+
+
+
+
+															/* 1: mobile */
+ @media  screen and (min-width: 480px) and (max-width:960px){
+
+	.reparation p{
+		margin-right: 0;
+		margin-left: 0;
+
+	}
+
+	img.img_desktop{
+		display: none;
+	}
+
+	img.img_mobile {
+		display: block;
+	}
+	/*section reparation */
+
+	 .reparation img  {
+		width: 70%;
+		padding: 1%;
+	}
+
+	.reparation .premiere_description {
+		display: block;
+		margin-right: 0;
+	}
+
+	.reparation .premiere_description img{
+		margin-right: 15%;
+		margin-left: 15%;
+
+	}
+
+
+	.reparation .seconde_description {
+		display: block;
+		margin-top: 1%;
+	}
+	.reparation .seconde_description img{
+		 margin-right: 15%;
+		 margin-left: 15%;
+	}
+	/*fin de section reparation */
+
+	/*section maps */
+
+	.maps {
+		display: block;
+
+	}
+
+	.maps h1{
+		text-align: center;
+	}
+	.maps p{
+		text-align: justify;
+	}
+
+	.maps div{
+		margin-left: 1%;
+		margin-right: 1%;
+	}
+
+	.maps img {
+		margin-top: 1%;
+		max-width:90%;
+		margin-left: 5%;
+		margin-right: 5%;
+
+	}
+
+		img#img_location {
+	 	width: 8%;
+	 	height: 5%;
+	 	margin-right: 1%;
+
+	 }
+
+	/*fin de section map */
+
+}
+
+
+
+								/* 1: tablette */
+
+@media  screen and (min-width: 960px) and (max-width:1280px){
+
+
+
+	.maps img.img_desktop{
+		display: none;
+	}
+
+	.maps img.img_mobile {
+		display: block;
+	}
+
+/*section maps */
+.maps {
+	display: block;
+}
+
+
+.maps h1{
+text-align: center;
+}
+.maps p{
+text-align: justify;
+}
+
+.maps div{
+margin-left: 1%;
+margin-right: 1%;
+}
+
+.maps img {
+margin-top: 1%;
+max-width:90%;
+margin-left: 5%;
+margin-right: 5%;
+
+}
+
+/*fin de section map */
+
 }
