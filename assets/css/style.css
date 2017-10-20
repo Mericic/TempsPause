@@ -2,7 +2,6 @@ body {
 	margin: 0;
 	background: #556080;
 	font-family: 'Playfair Display', serif;
-<<<<<<< HEAD
 	color: #ebba16;
 }
 
@@ -87,8 +86,7 @@ body {
 #description p{
 
 }
-=======
-}
+
 
 .header-icon {
 	font-size: 48px !important;
@@ -184,4 +182,3 @@ body {
 @media screen and (min-width: 1280px) {
 	/* Desktop */
 }
->>>>>>> 11301cf5c157587eaa2566fe16e0eb01eab13be5
