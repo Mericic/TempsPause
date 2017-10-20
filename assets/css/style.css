@@ -9,6 +9,7 @@ body {
 }
 
 
+
 hr {
 
 	text-align: center;
@@ -37,9 +38,16 @@ hr {
 	margin-top: 0;
 }
 
+ img#img_location {
+	width: 10%;
+	height: 5%;
+	margin-right: 1%;
+
+}
+
 .reparation img {
-width: 30%;
-height: 100%;
+max-width: 25em;
+max-height:25em;
 }
 
 .reparation .premiere_description {
@@ -93,7 +101,7 @@ img.img_mobile {
 }
 
 .maps img {
-	width:60%;
+	max-width:60%;
 	height: 20%;
 	margin-top: auto;
 	margin-bottom: auto;
@@ -171,12 +179,18 @@ img.img_mobile {
 
 	.maps img {
 		margin-top: 1%;
-		width:90%;
-		height: 25em;
+		max-width:90%;
 		margin-left: 5%;
 		margin-right: 5%;
 
 	}
+
+		img#img_location {
+	 	width: 8%;
+	 	height: 5%;
+	 	margin-right: 1%;
+
+	 }
 
 	/*fin de section map */
 
@@ -218,8 +232,7 @@ margin-right: 1%;
 
 .maps img {
 margin-top: 1%;
-width:90%;
-height: 25em;
+max-width:90%;
 margin-left: 5%;
 margin-right: 5%;
 
